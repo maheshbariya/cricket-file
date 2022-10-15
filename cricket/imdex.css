@@ -1,0 +1,84 @@
+    
+body {
+    background: url(./images/ball-4393070_1920.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    clear: both;
+}
+.left {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    display: inline-block;
+}
+.left img {
+    width: 100px;
+}
+.mid {
+    width: 42%;
+    top: 14px;
+    margin: 20px auto;
+    display: block;
+}
+.navbar {
+    font-family: 'Baloo Thambi 2', cursive;
+    border-radius: 8px;
+    display: inline-block;
+    position: fixed;
+}
+.navbar li {
+    font-size: 23px;
+    display: inline-block;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 13px;
+    border-radius: 10px;
+}
+.navbar li a:hover {
+    color: black;
+    background-color: white;
+}
+.right {
+    position: absolute;
+    top: 44px;
+    right: 20px;
+    display: inline-block;
+}
+.login {
+    margin: 100px auto;
+    display: inline-block;
+}
+
+h1 {
+    text-align: left;
+}
+.frist{
+    width: 500px;
+    padding-top: 200px;
+    padding-left: 100px;
+    color: white;
+   font-family: 'Baloo Thambi 2', cursive;
+   font-size: 20px;
+
+}
+.search{
+  border-radius: 5px;
+  text-align: center;
+  height: 25px;
+  width: 185px;
+}
+#search1{
+    color: white;
+    padding: 8px;
+}
+.btn{
+    font-size: 15px;
+    border-radius: 8px;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+.btn:hover{
+    color: white;
+    background-color: grey;
+}
